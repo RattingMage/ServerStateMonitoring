@@ -24,8 +24,8 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/RattingMage/amocrm_python_test.git
-cd amocrm_python_test/ServerStateMonitoring
+git clone https://github.com/RattingMage/ServerStateMonitoring.git
+cd ServerStateMonitoring/ServerStateMonitoring
 ```
 
 ### 2. Создайте `.env` файл
@@ -54,7 +54,7 @@ docker-compose up --build
 ### 1.Создать и активировать виртуальеое окружение Python
 
 ```bash
-cd amocrm_python_test/mock_server
+cd ServerStateMonitoring/mock_server
 py -m venv .\venv
 ```
 ```bash
